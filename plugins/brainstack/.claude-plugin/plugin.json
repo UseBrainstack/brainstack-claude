@@ -1,0 +1,19 @@
+{
+  "name": "brainstack",
+  "version": "0.1.0",
+  "description": "Brainstack \u2014 one plugin for macOS and Windows. Automatic capture of your local AI sessions plus the Brainstack connector, in a single native binary (no Node required). Sign in once; secret-less OAuth.",
+  "author": {
+    "name": "Brainstack",
+    "email": "hello@usebrainstack.com"
+  },
+  "homepage": "https://usebrainstack.com",
+  "license": "UNLICENSED",
+  "keywords": [
+    "knowledge-management",
+    "rbac",
+    "mcp",
+    "oauth",
+    "zero-install",
+    "cross-platform"
+  ]
+}

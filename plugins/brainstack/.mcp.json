@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "brainstack": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/runtime/vgb",
+      "args": [
+        "connect",
+        "https://usebrainstack.com/mcp"
+      ]
+    }
+  }
+}
