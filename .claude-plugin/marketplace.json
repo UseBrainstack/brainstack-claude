@@ -1,5 +1,5 @@
 {
-  "name": "brainstack-universal",
+  "name": "brainstack-claude",
   "owner": {
     "name": "Brainstack",
     "email": "hello@usebrainstack.com"
@@ -9,7 +9,7 @@
       "name": "brainstack",
       "source": "./plugins/brainstack",
       "version": "0.1.0",
-      "description": "Brainstack universal plugin \u2014 one native binary does the connector AND capture hooks; resolves per OS (macOS + Windows). No Node. Secret-less OAuth."
+      "description": "Brainstack for Claude (Code + Cowork) — one native binary does the connector AND capture hooks; resolves per OS (macOS + Windows). No Node. Secret-less OAuth."
     }
   ]
 }
