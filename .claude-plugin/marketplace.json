@@ -9,7 +9,7 @@
       "name": "brainstack",
       "source": "./plugins/brainstack",
       "version": "0.1.0",
-      "description": "Brainstack for Claude (Code + Cowork) — one native binary does the connector AND capture hooks; resolves per OS (macOS + Windows). No Node. Secret-less OAuth."
+      "description": "Brainstack for Claude (Code + Cowork) — the Brainstack MCP connector in one native binary; resolves per OS (macOS + Windows). No Node. Secret-less OAuth."
     }
   ]
 }

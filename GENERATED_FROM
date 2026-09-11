@@ -1,1 +1,12 @@
-GENERATED_FROM: vg-brain vgb binary, repointed at usebrainstack.com; branding stripped.
+GENERATED_FROM: Brainstack's own `bsb` binary (Go), the MCP connector for
+usebrainstack.com. One native binary, no Node.
+
+2026-09-11: local capture hooks were RETIRED (apps run in cloud/VM, so a local
+hook shipping a transcript is unreliable). Capture is now MCP-driven filing over
+the connector (private by default); deterministic auto-capture is a Compliance-API
+feature. The plugin is connector-only — no hooks.json, no hook declarations.
+
+Binary verb surface: `bsb connect <url>` (MCP stdio bridge). `bsb login` /
+`bsb ingest` exist for the one-time history importer (hosted in the
+brainstack-chatgpt repo, which scans Claude Code / Cowork / Codex transcripts).
+OAuth token at ~/.brainstack/token.json.
